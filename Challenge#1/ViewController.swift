@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func buttonPress(_ sender: Any) {
+    @IBAction func buttonPlayed(_ sender: Any) {
         count += 1
         if count == 1
         {
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             labelText.text = "Pressed " + String (count) + " Times"
         }
     }
+    
 
 }
 
